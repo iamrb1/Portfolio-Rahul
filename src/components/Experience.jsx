@@ -7,7 +7,7 @@ import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 import python from '../assets/python.png'
 import cplusplus from '../assets/c++.png'
-import arm from '../assets/ARM.png'
+
 
 const Experience = () => {
 
@@ -60,22 +60,17 @@ const Experience = () => {
       title: 'GitHub',
       style: 'shadow-gray-400'
     },
-    {
-      id: 9,
-      src: arm,
-      title: 'ARM Assembly',
-      style: 'shadow-cyan-400'
-    },
     
   ]
 
 
   return (
-    <div>
+    <div className="my-auto bg-gradient-to-b bg-black">
     <div name='experience' className="bg-gradient-to-b from-gray-900 via gray-950 to-black w-full h-screen">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full  text-white">
 
         <div>
+          <div className="mt-80"></div>
           <p className="text-4xl font-bold border-b-4 border-[#1ED760] p-2 inline text-[#1ED760]">Experience</p>
           <p className="py-6 text-white">Some languages and frameworks I've used...</p>
         </div>
@@ -91,7 +86,7 @@ const Experience = () => {
           </div>
             ))
           }
-          
+        
         </div>
       </div>
     </div>
