@@ -6,7 +6,7 @@ const Contact = () => {
           <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto my-auto h-full">
             <div className="pb-8">
               
-              <div className="mt-80 mb-auto"></div>
+              <div className="mt-40 mb-auto"></div>
               <p className="text-4xl font-bold inline border-b-4 border-[#1ED760] text-[#1ED760]">Contact</p>
               <p className="py-6 text-white">Submit the form below to get in touch with me with my email!</p>
             </div>
