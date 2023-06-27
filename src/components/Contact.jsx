@@ -8,7 +8,7 @@ const Contacts = () => {
             <div className="mt-20"></div>
             <div className="landscape:hidden  md:mt-20"></div>
             <div className="portrait:hidden sm:mt-80"></div>
-            <div className="portrait:hidden sm:mt-80"></div>
+            <div className="portrait:hidden sm:mt-60"></div>
             
             <div className="pb-8">
               <p className="text-4xl font-bold inline border-b-4 border-[#1ED760] text-[#1ED760]">Contact</p>
