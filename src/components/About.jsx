@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
   <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-900 via-gray-950 to-black text-[#1ED760]">
-    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
+    
     <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
       <div className="mt-40 md:mt-0"></div>
       <div className="pb-8">

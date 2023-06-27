@@ -39,7 +39,7 @@ const Portfolio = () => {
 
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black via-gray-950 to-gray-900 w-full text-white md:h-screen">
-          <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
+          
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8 md:mt-40 mt-20">
               <p className="text-4xl font-bold border-b-4 border-[#1ED760] p-2 inline text-[#1ED760]">Portfolio</p>

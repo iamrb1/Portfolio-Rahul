@@ -50,7 +50,7 @@ const SocialsLinks = () => {
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
+      
       <ul>
 
         {links.map(({id, child, href, style, download}) => (
