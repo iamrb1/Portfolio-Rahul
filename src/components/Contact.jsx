@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Contact = () => {
+const Contacts = () => {
   return (
-      <div name='contact' className="w-full h-screen bg-gradient-to-b from-black via-gray-950 to-gray-900 p-4 text-white">
+      <div name='contacts' className="w-full h-screen bg-gradient-to-b from-black via-gray-950 to-gray-900 p-4 text-white">
           <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
             <div className="landscape:hidden mt-20"></div>
             <div className="mt-20"></div>
@@ -42,4 +42,4 @@ const Contact = () => {
   );
 };
 
-export default Contact
+export default Contacts
