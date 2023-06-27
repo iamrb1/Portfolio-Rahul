@@ -32,6 +32,7 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-[#1ED760] bg-black fixed">
+      <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
       <div>
         <h1 className="text-5xl font-signature ml-2">Rahul;</h1>
       </div>

@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-gray-950 to-gray-900">
-
+      <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-[#1ED760]"> 

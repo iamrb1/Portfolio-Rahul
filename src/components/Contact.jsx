@@ -3,6 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
       <div name='contact' className="w-full h-screen bg-gradient-to-b from-black via-gray-950 to-gray-900 p-4 text-white">
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
           <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
             <div className="landscape:hidden mt-20"></div>
             <div className="mt-20"></div>

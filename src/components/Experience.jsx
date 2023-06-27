@@ -66,8 +66,8 @@ const Experience = () => {
 
   return (
     <div name='experience' className="bg-gradient-to-b from-gray-900 via gray-950 to-black w-full h-screen">
+      <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-      
         <div className='md:mt-40 mt-60'>
           <p className="text-4xl font-bold border-b-4 border-[#1ED760] p-2 inline text-[#1ED760]">Experience</p>
           <p className="py-6 text-white">Some languages and frameworks I've used...</p>
