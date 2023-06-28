@@ -4,7 +4,7 @@ import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
-import Contacts from "./components/Place";
+import Place from "./components/Place";
 import SocialsLinks from "./components/SocialsLinks";
 import Footer from "./components/Footer"
 
@@ -17,7 +17,7 @@ function App() {
       <Portfolio />
       <Experience />
       <Contact />
-      <Contacts />
+      <Place />
       <Footer />
 
       <SocialsLinks />
