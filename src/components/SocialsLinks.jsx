@@ -13,7 +13,7 @@ const SocialsLinks = () => {
               LinkedIn <FaLinkedin size={30}/>
             </>
           ),
-          href: 'https://linkedin.com',
+          href: 'https://www.linkedin.com/in/rahul-baragur-5b27bb266',
           style: 'rounded-tr-md',
         },
         {
@@ -23,7 +23,7 @@ const SocialsLinks = () => {
               GitHub <FaGithub size={30}/>
             </>
           ),
-          href: 'https://github.com',
+          href: 'https://github.com/iamrb1',
           
         },
         {
