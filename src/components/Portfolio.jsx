@@ -9,23 +9,37 @@ const Portfolio = () => {
     const portfolios = [
       {
         id: 1,
-        src: Ahoy
+        src: Ahoy,
+        demoLink: "https://messenger-three-beta.vercel.app/",
+        codeLink: "https://github.com/iamrb1/Ahoy"
       },
       {
         id: 2,
-        src: StipeCoinLogo
+        src: StipeCoinLogo,
+        demoLink: "https://github.com/iamrb1/StipeCoin",
+        codeLink: "https://github.com/iamrb1/StipeCoin"
       },
       {
         id: 3,
-        src: LocoListen
+        src: LocoListen,
+        demoLink: "https://devpost.com/software/locolisten",
+        codeLink: "https://github.com/iamrb1/LocoListen-Spartahack8"
       },
       {
         id: 4,
-        src: RahulPortfolio
+        src: RahulPortfolio,
+        demoLink: "https://main--merry-cascaron-b5bb72.netlify.app/",
+        codeLink: "https://github.com/iamrb1/Portfolio-Rahul"
       },
-      
-      
     ]
+
+    const handleDemoClick = (demoLink) => {
+      window.open(demoLink, '_blank');
+    };
+  
+    const handleCodeClick = (codeLink) => {
+      window.open(codeLink, '_blank');
+    };
 
 
   return (
@@ -39,12 +53,12 @@ const Portfolio = () => {
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             {
-              portfolios.map(({id, src}) => (
+              portfolios.map(({id, src, demoLink, codeLink}) => (
                 <div key={id} className="shadow-md shadow-[#1ED760] rounded-lg">
                 <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
                 <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-[#1ED760]" onClick={() => handleDemoClick(demoLink)}>Demo</button>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-[#1ED760]" onClick={() => handleCodeClick(codeLink)}>Code</button>
                 </div>
               </div>
               ))
