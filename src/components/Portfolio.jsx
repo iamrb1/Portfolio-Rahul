@@ -1,38 +1,29 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import LocoListen from '../assets/portfolio/LocoListen.jpg'
+import Ahoy from '../assets/portfolio/Ahoy.jpg'
+import RahulPortfolio from '../assets/portfolio/RahulPortfolio.jpg'
+import StipeCoinLogo from '../assets/portfolio/StipeCoinLogo.jpg'
 
 const Portfolio = () => {
 
     const portfolios = [
       {
         id: 1,
-        src: arrayDestruct
+        src: Ahoy
       },
       {
         id: 2,
-        src: reactParallax
+        src: StipeCoinLogo
       },
       {
         id: 3,
-        src: navbar
+        src: LocoListen
       },
       {
         id: 4,
-        src: reactSmooth
+        src: RahulPortfolio
       },
-      {
-        id: 5,
-        src: installNode
-      },
-      {
-        id: 6,
-        src: reactWeather
-      },
+      
       
     ]
 
