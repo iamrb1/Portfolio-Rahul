@@ -11,9 +11,9 @@ const About = () => {
       </div>
 
     <p className="text-xl text-white">
-    Since I was a kid, I've been all about building and creating. You know, the whole deal - building stuff with Lego, crafting epic structures in Minecraft, and even engineering pillow forts that could rival castles.
+    Since I was a kid, I've been all about building and creating. I enjoyed building Lego, crafting epic structures in Minecraft, and even engineering pillow forts that could rival castles.
 
-    My first real dive into the world of computer science happened when I was just 8 years old, thanks to Lego NXT. I got to tinker, program, and voila! I had my own little robot doing my bidding. That spark of creation stuck with me and soon found its way into programming. It's like I transferred those building skills into a digital realm where I could whip up whatever I dreamed up.
+    My first real dive into the world of computer science happened when I was just 8 years old, thanks to Lego NXT. I got to tinker, program, and voila! I had my own little robot doing my bidding. That spark of creation stuck with me and soon found its way into programming, transferring those building skills into a digital realm where I could whip up whatever I dreamed up.
     </p>
 
 
