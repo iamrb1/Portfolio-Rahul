@@ -22,6 +22,7 @@ const About = () => {
     <p className="text-xl text-white">
       I will be graduating from Michigan State University by 2025. I've got my sights set on a minor in mathematics, driven by my deep-rooted connection with the subject. My journey with mathematics has been enriched by my active participation in Math Counts, Olympiad, and various other competitions.
     </p>
+    <div className='mt-20'></div>
   </div>
 
 </div>
