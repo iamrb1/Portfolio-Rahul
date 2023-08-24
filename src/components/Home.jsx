@@ -25,7 +25,7 @@ const Home = () => {
             <Cursor/>
           </h2>
           <p className="text-white py-4 max-w-md">
-            I am a current junior with a love for programming. Currently, I have been working with JS, React, Python, C++ and SQL. My interests lay in data science, web development, machine learning, and embedded software! 
+          Hey there! I'm a junior student at MSU who's absolutely hooked on programming. Right now, I'm diving deep into languages like JS, React, Python, and C++. But it's not just about the languages - I'm really drawn to the worlds of data science, web development, machine learning, and even tinkering with embedded software!
           </p>
           <div>
             <Link to="portfolio" smooth duration={500} className= "group text-white w-fit px-4 py-2 my-2 flex items-center rounded-full bg-gradient-to-r from-[#1ED760] via-green-500 to-emerald-500 cursor-pointer">

@@ -11,14 +11,16 @@ const About = () => {
       </div>
 
     <p className="text-xl text-white">
-      Ever since I was a kid, I was always building and constructing, whether it were lego blocks, Minecraft structures, or even making forts out of pillows. The first time I was involved in the field of computer science was with Lego NXT, in which I programmed and created a robot of my bidding at 8 years old. The passion of creating soon translated into programming in which I got to exercise the same skills into making whatever I desired.
+    Since I was a kid, I've been all about building and creating. You know, the whole deal - building stuff with Lego, crafting epic structures in Minecraft, and even engineering pillow forts that could rival castles.
+
+    My first real dive into the world of computer science happened when I was just 8 years old, thanks to Lego NXT. I got to tinker, program, and voila! I had my own little robot doing my bidding. That spark of creation stuck with me and soon found its way into programming. It's like I transferred those building skills into a digital realm where I could whip up whatever I dreamed up.
     </p>
 
 
     <br />
 
     <p className="text-xl text-white">
-      I am a current Junior at Michigan State University, with an expected graduation date of 2025. At MSU, I plan to minor in mathematics as well due to my extensive background in the subject, whether it was Math Counts, Olympiad or other competitions. 
+      I will be graduating from Michigan State University by 2025. I've got my sights set on a minor in mathematics, driven by my deep-rooted connection with the subject. My journey with mathematics has been enriched by my active participation in Math Counts, Olympiad, and various other competitions.
     </p>
   </div>
 
