@@ -7,8 +7,13 @@ import Portfolio from "./components/Portfolio";
 import Place from "./components/Place";
 import SocialsLinks from "./components/SocialsLinks";
 import Footer from "./components/Footer"
+import React, { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = "Rahul Baragur"
+  }, []);
+
   return (
     <div>
       <NavBar />
