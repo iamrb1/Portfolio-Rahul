@@ -98,11 +98,6 @@ const WorkExperience = () => {
                         <h3 className="font-heading font-bold text-lg text-zinc-900 dark:text-zinc-100">
                           {job.role}
                         </h3>
-                        {job.current && (
-                          <span className="bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 text-xs font-bold px-2.5 py-0.5 rounded-full">
-                            Current
-                          </span>
-                        )}
                       </div>
                       <p className="text-zinc-600 dark:text-zinc-300 font-semibold text-base">
                         {job.company}
@@ -113,6 +108,11 @@ const WorkExperience = () => {
                       <p className="text-zinc-400 dark:text-zinc-500 text-xs mt-0.5">
                         {job.location} · {job.type}
                       </p>
+                      {job.current && (
+                        <span className="inline-block mt-1.5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 text-xs font-bold px-2.5 py-0.5 rounded-full">
+                          Current
+                        </span>
+                      )}
                     </div>
                   </div>
 

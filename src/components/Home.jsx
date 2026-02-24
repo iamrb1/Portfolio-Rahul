@@ -178,7 +178,7 @@ const Home = () => {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 mb-10">
+            <div className="flex flex-wrap gap-4 mb-10 justify-center sm:justify-start">
               <Link
                 to="workexperience"
                 smooth duration={500} offset={-80}
@@ -196,7 +196,7 @@ const Home = () => {
             </div>
 
             {/* Social icons */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 justify-center sm:justify-start">
               <span className="text-zinc-500 dark:text-zinc-600 text-sm">Find me on</span>
               {[
                 { href: 'https://github.com/iamrb1', icon: <FaGithub size={17} /> },
