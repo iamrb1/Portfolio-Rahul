@@ -76,7 +76,7 @@ const Portfolio = () => {
           </h2>
           <div className="w-14 h-1 bg-zinc-800 dark:bg-zinc-500 rounded-full mx-auto mb-5" />
           <p className="text-zinc-500 dark:text-zinc-400 text-lg max-w-2xl mx-auto">
-            Here are a few projects I've created recently!.
+            Here are a few projects I've created recently!
           </p>
         </div>
 
