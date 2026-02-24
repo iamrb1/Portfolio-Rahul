@@ -234,7 +234,7 @@ const Home = () => {
                 <svg width="100%" height="100%" className="opacity-20">
                   <circle
                     cx="50%" cy="50%"
-                    r={`calc(50% - 1px)`}
+                    r="49%"
                     stroke="currentColor"
                     strokeWidth="1"
                     strokeDasharray="5 8"
