@@ -69,7 +69,7 @@ const About = () => {
               I graduated from{' '}
               <span className="text-zinc-900 dark:text-zinc-200 font-semibold">Michigan State University</span>{' '}
               in 2025 in Computer Science. Today I'm
-              a <span className="text-zinc-900 dark:text-zinc-200 font-semibold">Associate Product Manager at Ford Motor Company</span>,
+              an <span className="text-zinc-900 dark:text-zinc-200 font-semibold">Associate Product Manager at Ford Motor Company</span>,
               rotating and learning through various teams within the organization.
             </p>
 

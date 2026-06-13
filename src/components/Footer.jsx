@@ -28,7 +28,7 @@ const Footer = () => {
               <span className="text-zinc-400 dark:text-zinc-600">.</span>
             </span>
             <p className="mt-3 text-sm leading-relaxed max-w-xs text-zinc-600 dark:text-zinc-500">
-              Software Engineer at Ford Motor Company and recent graduate from Michigan State University.
+              Associate Product Manager at Ford Motor Company and recent graduate from Michigan State University.
             </p>
             <div className="flex gap-3 mt-5">
               {[
