@@ -4,9 +4,23 @@ const jobs = [
   {
     id: 1,
     company: 'Ford Motor Company',
+    role: 'Associate Product Manager',
+    type: 'Full-time',
+    period: 'Jul 2026 – Present',
+    location: 'Dearborn, Michigan',
+    current: true,
+    tech: ['Microsoft Office', 'Amplitude', 'APIs', 'JIRA'],
+    bullets: [
+      'Contributing to the design and development of Infotainment application prototypes on the Digital Product Lab team.',
+      'Engineered two automation scripts in Python to automate test cases for the Battery Energy Control Module, covering the full lifecycle from concept design to production integration.',
+    ],
+  },
+  {
+    id: 2,
+    company: 'Ford Motor Company',
     role: 'Software Engineer',
     type: 'Full-time',
-    period: 'Sep 2025 – Present',
+    period: 'Sep 2025 – Jul 2026',
     location: 'Dearborn, Michigan',
     current: true,
     tech: ['Python', 'C++', 'Java', 'Android Studio', 'APIs', 'JIRA'],
@@ -16,7 +30,7 @@ const jobs = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: 'Ford Motor Company',
     role: 'Software Engineer Intern',
     type: 'Internship',
@@ -31,9 +45,9 @@ const jobs = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     company: 'Acsia',
-    role: 'Software Engineering / Product Management Intern',
+    role: 'Software Engineering / Project Management Intern',
     type: 'Internship',
     period: 'May 2023 – Aug 2023',
     location: 'Bangalore, India',
@@ -44,7 +58,7 @@ const jobs = [
       'Collaborated with the Functional Safety team to analyze diagnostic trouble codes distributed by the ECU via CAN.',
       'Streamlined work protocols by managing meeting minutes and bug trackers under Agile and ASPICE/ISO 26262, achieving deadlines 50% faster.',
     ],
-  },
+  }
 ];
 
 const WorkExperience = () => {

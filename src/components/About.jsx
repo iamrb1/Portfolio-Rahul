@@ -69,17 +69,17 @@ const About = () => {
               I graduated from{' '}
               <span className="text-zinc-900 dark:text-zinc-200 font-semibold">Michigan State University</span>{' '}
               in 2025 in Computer Science. Today I'm
-              a <span className="text-zinc-900 dark:text-zinc-200 font-semibold">Software Engineer at Ford Motor Company</span>,
+              a <span className="text-zinc-900 dark:text-zinc-200 font-semibold">Associate Product Manager at Ford Motor Company</span>,
               rotating and learning through various teams within the organization.
             </p>
 
             {/* Tiles */}
             <div className="grid grid-cols-2 gap-3">
               {[
-                { emoji: '📍', label: 'Based in',   value: 'Dearborn, MI' },
-                { emoji: '🏢', label: 'Employer',   value: 'Ford Motor Company' },
-                { emoji: '🎓', label: 'Degree',     value: 'B.S. Computer Science' },
-                { emoji: '📊', label: 'GPA',        value: '3.85 / 4.0' },
+                { emoji: null, label: 'Based in',   value: 'Dearborn, MI' },
+                { emoji: null, label: 'Employer',   value: 'Ford Motor Company' },
+                { emoji: null, label: 'Degree',     value: 'B.S. Computer Science' },
+                { emoji: null, label: 'GPA',        value: '3.85 / 4.0' },
               ].map((f, i) => (
                 <div
                   key={i}

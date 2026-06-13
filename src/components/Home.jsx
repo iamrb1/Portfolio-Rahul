@@ -10,19 +10,26 @@ const ORBIT_CARDS = [
   {
     id: 0,
     emoji: '🏢',
+    title: 'Associate Product Manager',
+    sub: 'Ford Motor Company',
+    initAngle: 0,   
+  },
+  {
+    id: 1,
+    emoji: '🏢',
     title: 'Software Engineer',
     sub: 'Ford Motor Company',
     initAngle: 160,   
   },
   {
-    id: 1,
+    id: 2,
     emoji: '🎓',
     title: 'CS Graduate 2025',
     sub: 'Michigan State Univ.',
     initAngle: -45,   
   },
   {
-    id: 2,
+    id: 3,
     emoji: '🚙',
     title: 'Software Engineer Intern',
     sub: 'Acsia Technologies',
@@ -174,7 +181,7 @@ const Home = () => {
             <p className="text-zinc-500 text-base md:text-lg leading-relaxed mb-10 max-w-lg">
               CS graduate from{' '}
               <span className="text-zinc-700 dark:text-zinc-300 font-semibold">Michigan State University</span>{' '}
-               that is currently building and exploring full-stack web, embedded systems, and mobile development applications.
+               and Associate Product Manager focused on building impactful digital products.
             </p>
 
             {/* CTAs */}
