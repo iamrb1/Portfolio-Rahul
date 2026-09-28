@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preview": "node scripts/preview.cjs"
   },
   "eslintConfig": {
     "extends": [
@@ -30,7 +31,10 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "last 2 Safari versions",
+      "last 2 Firefox versions",
+      "last 2 iOS versions"
     ],
     "development": [
       "last 1 chrome version",
