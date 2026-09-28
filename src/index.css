@@ -1456,3 +1456,43 @@ html[data-theme-turn]::view-transition-new(root) {
     transform: none;
   }
 }
+
+/* A brief starfield accompanies the trip back to the hero. */
+.warp-flight {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  overflow: hidden;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, #08152655, #030916e8);
+  animation: warp-veil 850ms ease-in-out both;
+}
+.warp-ray {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: rotate(var(--angle));
+}
+.warp-ray i {
+  display: block;
+  width: 18vmin;
+  height: 2px;
+  border-radius: 100%;
+  background: linear-gradient(90deg, transparent, #8dcbff, #fff);
+  transform-origin: left center;
+  animation: warp-streak 680ms cubic-bezier(.4, 0, 1, .6) var(--delay) both;
+  will-change: transform, opacity;
+}
+@keyframes warp-streak {
+  0% { opacity: 0; transform: translateX(var(--distance)) scaleX(.015); }
+  18% { opacity: .85; }
+  75% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(75vmax) scaleX(2.5); }
+}
+@keyframes warp-veil {
+  0%, 100% { opacity: 0; }
+  20%, 65% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .warp-flight { display: none; }
+}

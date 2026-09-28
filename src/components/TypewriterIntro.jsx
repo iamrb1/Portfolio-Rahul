@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import useAnimationActivity from "../hooks/useAnimationActivity";
-const words = ["Software Engineer", "Developer", "Problem Solver", "Learner"];
+const words = ["Product Manager", "Developer", "Problem Solver", "Learner"];
 export default function TypewriterIntro() {
   const ref = useRef(null);
   const { running, reduced } = useAnimationActivity(ref);

@@ -36,11 +36,11 @@ test("typing pauses offscreen and in hidden tabs, and resumes when visible", () 
   expect(jest.getTimerCount()).toBe(0);
   act(() => intersect([{ isIntersecting: true }]));
   act(() => jest.advanceTimersByTime(70));
-  expect(value()).toBe("S|");
+  expect(value()).toBe("P|");
   act(() => intersect([{ isIntersecting: false }]));
   expect(jest.getTimerCount()).toBe(0);
   act(() => jest.advanceTimersByTime(5000));
-  expect(value()).toBe("S|");
+  expect(value()).toBe("P|");
   act(() => intersect([{ isIntersecting: true }]));
   act(() => {
     hidden = true;
@@ -52,7 +52,7 @@ test("typing pauses offscreen and in hidden tabs, and resumes when visible", () 
     document.dispatchEvent(new Event("visibilitychange"));
   });
   act(() => jest.advanceTimersByTime(70));
-  expect(value()).toBe("So|");
+  expect(value()).toBe("Pr|");
   unmount();
   expect(jest.getTimerCount()).toBe(0);
 });
@@ -64,7 +64,7 @@ test("reduced motion shows the complete role without scheduling a timer", () => 
     motion();
   });
   expect(container.querySelector(".typewriter-text").textContent).toBe(
-    "Software Engineer|",
+    "Product Manager|",
   );
   expect(jest.getTimerCount()).toBe(0);
 });
