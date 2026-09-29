@@ -37,9 +37,12 @@ export const DarkModeProvider = ({ children }) => {
     }
     busy.current = true;
     root.dataset.themeTurn = next ? "dark" : "light";
+    const header = document.querySelector(".site-header");
+    root.style.setProperty("--theme-header-bottom", `${header?.getBoundingClientRect().bottom || 0}px`);
     const finish = () => {
       busy.current = false;
       delete root.dataset.themeTurn;
+      root.style.removeProperty("--theme-header-bottom");
     };
     if (document.startViewTransition) {
       try {

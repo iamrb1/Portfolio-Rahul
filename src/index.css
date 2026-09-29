@@ -1339,10 +1339,28 @@ textarea::placeholder {
   }
 }
 
-/* Snapshot page turn runs only when the theme button is pressed. */
+/* Keep the sticky navigation above the turning page in its own snapshot. */
+.site-header {
+  view-transition-name: site-header;
+}
+html[data-theme-turn]::view-transition-group(site-header) {
+  z-index: 3;
+  animation: none;
+}
+html[data-theme-turn]::view-transition-old(site-header) {
+  animation: none;
+  opacity: 0;
+}
+html[data-theme-turn]::view-transition-new(site-header) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+/* Clip the whole turning layer, so perspective cannot enter the header. */
 html[data-theme-turn]::view-transition-group(root) {
   animation: none;
   perspective: 1800px;
+  z-index: 1;
+  clip-path: inset(var(--theme-header-bottom, 0px) 0 0 0);
 }
 html[data-theme-turn]::view-transition-image-pair(root) {
   isolation: isolate;
