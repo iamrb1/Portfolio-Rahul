@@ -1358,7 +1358,6 @@ html[data-theme-turn]::view-transition-new(site-header) {
 /* Clip the whole turning layer, so perspective cannot enter the header. */
 html[data-theme-turn]::view-transition-group(root) {
   animation: none;
-  perspective: 1800px;
   z-index: 1;
   clip-path: inset(var(--theme-header-bottom, 0px) 0 0 0);
 }
@@ -1379,14 +1378,14 @@ html[data-theme-turn]::view-transition-new(root) {
 }
 @keyframes theme-page-turn {
   0% {
-    transform: perspective(1800px) rotateY(0);
+    transform: rotateY(0);
     opacity: 1;
   }
   75% {
     opacity: 0.95;
   }
   100% {
-    transform: perspective(1800px) rotateY(-100deg);
+    transform: rotateY(-90deg);
     opacity: 0;
   }
 }
