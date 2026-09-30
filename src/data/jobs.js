@@ -1,31 +1,59 @@
 export const jobs = [
   {
-    id: 1,
-    company: "Ford Motor Company",
-    role: "Associate Product Manager",
-    type: "Full-time",
-    period: "Jul 2026 – Present",
-    location: "Dearborn, Michigan",
-    current: true,
-    tech: ["Microsoft Office", "Amplitude", "APIs", "JIRA"],
-    bullets: [
-      "Contributing to the design and development of Infotainment application prototypes on the Digital Product Lab team.",
-      "Engineered two automation scripts in Python to automate test cases for the Battery Energy Control Module, covering the full lifecycle from concept design to production integration.",
+    "id": 1,
+    "company": "Ford Motor Company",
+    "role": "Associate Product Manager",
+    "type": "Full-time",
+    "period": "Jun 2026 – Present",
+    "location": "Dearborn, Michigan",
+    "current": true,
+    "tech": [
+      "Product requirements",
+      "Customer interviews",
+      "Jira",
+      "Confluence"
     ],
+    "bullets": [
+      "Driving the launch of a new scheduling feature with mobile engineering and design to surface the next 24 hours of departures, software updates, and charging; targeting monthly active usage of 30% on the home screen and 10% on the full schedule page.",
+      "Cut intake and planning time by 50% by centralizing platform requests in Jira, replacing messages, emails, and Confluence tracking while enabling leadership to stack-rank work.",
+      "Used customer interviews to shape a Lincoln Navigator health widget prototype, retaining essential metrics and removing those customers found unnecessary or stressful; built integrations with Apple Watch, supported Android watches, and Oura Ring.",
+      "Defined product requirements (PRD) for an ongoing mobile architecture redesign focused on reusable capabilities, targeting 30% shorter feature delivery cycles and a 50% reduction in screen load time."
+    ]
   },
   {
-    id: 2,
-    company: "Ford Motor Company",
-    role: "Software Engineer",
-    type: "Full-time",
-    period: "Sep 2025 – Jul 2026",
-    location: "Dearborn, Michigan",
-    current: true,
-    tech: ["Python", "C++", "Java", "Android Studio", "APIs", "JIRA"],
-    bullets: [
-      "Contributing to the design and development of Infotainment application prototypes on the Digital Product Lab team.",
-      "Engineered two automation scripts in Python to automate test cases for the Battery Energy Control Module, covering the full lifecycle from concept design to production integration.",
+    "id": 2,
+    "company": "Ford Motor Company",
+    "role": "Software Engineer, Digital Product Lab",
+    "type": "Full-time",
+    "period": "Jan 2026 – Jun 2026",
+    "location": "Dearborn, Michigan",
+    "current": false,
+    "tech": [
+      "C++",
+      "Bluetooth",
+      "Prototyping",
+      "Network testing"
     ],
+    "bullets": [
+      "Enabled a product manager and development team to evaluate in-vehicle gaming under poor connectivity by building an internal network test device with bandwidth controls and packet-loss simulation.",
+      "Built a C++ steering-wheel prototype for the design team to simulate steering-wheel interactions through Bluetooth keyboard inputs."
+    ]
+  },
+  {
+    "id": 5,
+    "company": "Ford Motor Company",
+    "role": "Software Validation Test Engineer",
+    "type": "Full-time",
+    "period": "Sep 2025 – Jan 2026",
+    "location": "Dearborn, Michigan",
+    "current": false,
+    "tech": [
+      "Python",
+      "Test automation"
+    ],
+    "bullets": [
+      "Reduced test time for 30 Battery Energy Control Module requirements from 90 minutes to 5 minutes through Python automation; developed 2 scripts from concept through production integration."
+    ]
   },
   {
     id: 3,
