@@ -7,6 +7,7 @@ import {
 } from "react-icons/hi";
 import { useDarkMode } from "../DarkModeContext";
 export const navigation = [
+  ["home", "Home"],
   ["about", "About"],
   ["workexperience", "Experience"],
   ["portfolio", "Projects"],
@@ -38,7 +39,7 @@ export default function NavBar() {
   return (
     <header className="site-header">
       <nav className="container nav-inner" aria-label="Main navigation">
-        <a href="#home" className="wordmark" aria-label="Rahul Baragur home">
+        <a href="#home" className="wordmark" aria-label="Rahul Baragur home" onClick={(event) => navigate(event, "home")}>
           rb<span>.</span>
         </a>
         <div
