@@ -528,11 +528,19 @@ img {
   padding-bottom: 0;
 }
 .job ul {
+  list-style: disc outside;
   padding-left: 16px;
   margin: 20px 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.85;
+}
+.job li::marker {
+  color: var(--accent);
+}
+.job li strong {
+  font-weight: 700;
+  color: var(--ink);
 }
 .job li + li {
   margin-top: 9px;

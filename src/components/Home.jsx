@@ -2,13 +2,14 @@ import { HiArrowRight, HiArrowDown } from "react-icons/hi";
 import TypewriterIntro from "./TypewriterIntro";
 import OrbitSphere from "./OrbitSphere";
 export default function Home() {
-  const scrollToContact = (event) => {
+  const scrollToSection = (event, id) => {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)
       return;
-    const target = document.getElementById("contact");
+    const target = document.getElementById(id);
     if (!target) return;
     event.preventDefault();
-    window.history.pushState(null, "", "#contact");
+    window.history.pushState(null, "", `#${id}`);
+    if (!target.hasAttribute("tabindex")) target.tabIndex = -1;
     target.focus({ preventScroll: true });
     target.scrollIntoView({
       behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -33,7 +34,7 @@ export default function Home() {
             graduate from Michigan State University.
           </p>
           <div className="button-row">
-            <a className="button primary" href="#portfolio">
+            <a className="button primary" href="#portfolio" onClick={(event) => scrollToSection(event, "portfolio")}>
               View projects <HiArrowRight />
             </a>
             <a className="text-link" href="/resume.pdf" download>
@@ -45,7 +46,7 @@ export default function Home() {
       </div>
       <div className="hero-foot">
         <span>Rahul Baragur</span>
-        <a href="#contact" onClick={scrollToContact}>
+        <a href="#contact" onClick={(event) => scrollToSection(event, "contact")}>
           Contact me <HiArrowDown />
         </a>
       </div>

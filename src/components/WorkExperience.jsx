@@ -1,5 +1,19 @@
 import { jobs } from "../data/jobs";
 import SectionHeading from "./SectionHeading";
+// Emphasize outcomes and deliverables without changing the résumé wording.
+const highlights = [
+  "30% shorter feature delivery cycles", "50% reduction in screen load time",
+  "30 Battery Energy Control Module requirements", "90 minutes to 5 minutes",
+  "Lincoln Navigator health widget prototype", "product requirements (PRD)",
+  "C++ steering-wheel prototype", "over 70%", "2 production-ready",
+  "over 100 end-to-end test cases", "over 400", "50% faster", "30%", "10%", "50%",
+];
+function emphasize(text) {
+  const match = highlights.find((phrase) => text.includes(phrase));
+  if (!match) return text;
+  const index = text.indexOf(match);
+  return <>{emphasize(text.slice(0, index))}<strong>{match}</strong>{emphasize(text.slice(index + match.length))}</>;
+}
 export default function WorkExperience() {
   return (
     <section id="workexperience" className="section section-tinted">
@@ -23,7 +37,7 @@ export default function WorkExperience() {
                 <h3>{job.role}</h3>
                 <ul>
                   {job.bullets.map((b) => (
-                    <li key={b}>{b}</li>
+                    <li key={b}>{emphasize(b)}</li>
                   ))}
                 </ul>
                 <div className="tags">
