@@ -31,9 +31,6 @@ function Photography() {
         <p className="eyebrow">PHOTO COLLECTION</p>
         <h3>Photography</h3>
         <p>A selection of my photos.</p>
-        <span className="draft-label">
-          Placeholder images for now. My photos are coming soon.
-        </span>
         <div className="photo-controls">
           <button
             className="icon-button"

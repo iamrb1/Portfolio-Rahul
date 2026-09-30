@@ -47,14 +47,14 @@ test("keyboard moves cards and reset restores their initial position", () => {
 test("photography supports manual navigation with reduced motion", () => {
   render(<OutsideWork />);
   const first = screen
-    .getByAltText("Illustrated mountain landscape placeholder")
+    .getByAltText("Close-up of a pink rose surrounded by green leaves")
     .closest("figure");
   expect(first).toHaveAttribute("aria-hidden", "false");
   fireEvent.click(screen.getByRole("button", { name: "Next photograph" }));
   expect(first).toHaveAttribute("aria-hidden", "true");
   expect(
     screen
-      .getByAltText("Illustrated architectural geometry placeholder")
+      .getByAltText("Black and white cat resting on a stone")
       .closest("figure"),
   ).toHaveAttribute("aria-hidden", "false");
   fireEvent.click(screen.getByRole("button", { name: "Previous photograph" }));

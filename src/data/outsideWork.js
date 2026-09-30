@@ -1,20 +1,20 @@
-// Replace the sample images and draft text with your own documentation.
+// Car and hardware documentation can be added as those projects are ready.
 // Photography accepts any number of { src, alt, caption } entries.
 export const photography = [
   {
-    src: "/images/photo-study-01.svg",
-    alt: "Illustrated mountain landscape placeholder",
-    caption: "Mountains",
+    src: "/images/photography/pink-rose.webp",
+    alt: "Close-up of a pink rose surrounded by green leaves",
+    caption: "Pink rose",
   },
   {
-    src: "/images/photo-study-02.svg",
-    alt: "Illustrated architectural geometry placeholder",
-    caption: "Architecture",
+    src: "/images/photography/resting-cat.webp",
+    alt: "Black and white cat resting on a stone",
+    caption: "Resting cat",
   },
   {
-    src: "/images/photo-study-03.svg",
-    alt: "Illustrated coastal sunset placeholder",
-    caption: "Sunset",
+    src: "/images/photography/monkey.webp",
+    alt: "Monkey sitting beside a wooded path in sunlight",
+    caption: "Monkey",
   },
 ];
 export const outsideProjects = [
